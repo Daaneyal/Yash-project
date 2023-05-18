@@ -1,0 +1,216 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+@font-face{
+  font-family: RalewayVariable; 
+  src: url('Raleway-Variable.ttf'); 
+}
+
+@font-face{
+  font-family: RalewayItalic; 
+  src: url('Raleway-Italic.ttf'); 
+}
+
+
+#Title1{
+  font-family: "RalewayVariable", sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+#Title2{
+  font-family: RalewayVariable, sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+#banner{
+  position:absolute;
+  width: 1820px;
+  margin-left: -20px;
+}
+
+#bannertext{
+  position: absolute;
+  font-size: 26px;
+  font-family: RalewayItalic, sans-serif;
+  color: white;
+  top: 300px;
+  margin-left:20px;
+}
+#bannertext2{
+  position: absolute;
+  font-size: 26px;
+  font-family: RalewayItalic, sans-serif;
+  color: white;
+  top: 360px;
+  margin-left: 20px;
+}
+#bannertext3{
+  position:absolute;
+  font-size:26px;
+  font-family: RalewayItalic, sans-serif;
+  color: white;
+  top: 330px;
+  margin-left: 20px;
+}
+
+#b1{
+  position: absolute;
+  background: white;
+  color:#00add8;
+  border: white;
+  border-radius: 20px;
+  width: 160px;
+  height:50px;
+  font-family: RalewayVariable, sans-serif;
+  bottom: 450px;
+  left: 50px;
+  cursor: pointer;
+}
+#b2{
+  position: absolute;
+  background: white;
+  color:#00add8;
+  border: white;
+  border-radius: 20px;
+  width: 160px;
+  height:50px;
+  font-family: RalewayVariable, sans-serif;
+  bottom: 450px;
+  left: 220px;
+  cursor: pointer;
+}
+
+#aims{
+  font-family: RalewayVariable, sans-serif;
+  position: relative;
+  text-align: center;
+  top: 600px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:400px;
+  font-family: RalewayVariable, sans-serif;
+}
+
+
+.card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #00add8;
+  border-radius: 20px;
+  margin: 15px;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  top: 800px;
+  margin-right: 550px;
+}
+
+.card2{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #00add8;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  top: 620px;
+  margin-right: -550px;
+}
+
+
+.card3{
+  height: 365px;
+  width:1350px;
+  padding: 20px 35px;
+  background: #00add8;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  top: 750px;
+  margin-left: 170px;
+  font-family: RalewayVariable, sans-serif;
+  font-size: 16px;
+}
+
+
+
+#Stats{
+  color: black;
+  font-family: RalewayVariable, sans-serif;
+  position: relative;
+  top: 830px;
+  text-align: center;
+}
+
+#TargetPic{
+  position:relative;
+  width: 460px;
+  height: 450px;
+  top: 874px;
+  left: 180px;
+}
+
+
+
+.boxA{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:400px;
+  font-family: RalewayVariable, sans-serif;
+}
+
+
+.cardA{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #00add8;
+  border-radius: 20px;
+  margin: 15px;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  top: 1970px;
+  left: 680px;
+  font-size: 20px;
+  font-family: RalewayVariable, sans-serif;
+}
+
+#bA{
+  position: relative;
+  background: white;
+  color:#00add8;
+  border: white;
+  border-radius: 20px;
+  width: 160px;
+  height:50px;
+  font-family: RalewayVariable, sans-serif;
+  top: -40px;
+  left: 810px;
+  cursor: pointer;
+}
+
+
+#Watercard{
+  position: relative;
+  width: 460px;
+  height: 400px;
+  left: 980px;  
+  top:20px;
+}
